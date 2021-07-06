@@ -52,7 +52,9 @@ var passwordText = document.querySelector("#password");
           var length = Number(prompt("How many characters would you like your password to be?"));
 
           while (isNaN(length) || length < 8 || length > 128) length = Number(prompt("Choose a length of at least 8 characters and no more than 128 characters."));
-        
+          
+
+            
           var uppers = confirm("Would you like to use uppercase letters?");
           var lowers = confirm("Would you like to use lowercase letters?");
           var numbers = confirm("Would you like to use numbers?");
